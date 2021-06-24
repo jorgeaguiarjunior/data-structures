@@ -1,0 +1,43 @@
+Tarefa de Nivelamento - Programação em C - Leitura e Escrita em Aquivo e manipulação de Vetores. 
+
+Instruções:
+
+* Enviar apenas o Código Fonte como texto. 
+
+* Utilizar o DevC++ (.cpp)
+
+a) O programa deverá ter um menu principal, com as opções:
+
+1)      Novo Registro,
+
+2)      Salvar todos no arquivo TXT,
+
+3)      Pesquisar Nome de Aluno
+
+4)      Sair. (não conterá opções Alterar e Excluir, neste momento). 
+
+b) Detalhes do Programa:
+
+1)      Sempre ao a abrir o programa, deverá ler os registros do arquivo TXT e carregar nos vetores (array). Esses vetores deem ser iniciamos cada um com 1000 posições.
+
+2)      Quando inserir um novo registro, deverá ser inserido no final do vetor.
+
+3)      Quando usar a opção “Salvar”, deverá sobrescrever todo o arquivo com os dados do vetor.
+
+4)      A opção pesquisar, procura o nome,  realizando uma leitura seqüencial do vetor (mostrar o primeiro aluno encontrado, caso exista dois alunos com o mesmo nome). Caso encontre, deverá mostrar as notas e a média. Caso não localize, deverá mostrar uma mensagem informando que não foi possível localizar.
+
+c) Itens a serem avaliados:
+
+1)      Funcionamento do Menu do Principal (se chama os procedimentos adequadamente)
+
+2)      Se carrega os registros salvos no arquivo e se armazena o novo registro.
+
+3)       Se localiza o registro, mostrando as notas e a média.
+
+4)      Se todos as opções do menu foram separadas em Procedimentos, facilitando a manutenção.
+
+ 
+
+Para facilitar a programação, use sempre variáveis globais (facilita a programação neste momento).
+
+Programas iguais (ou bases compartilhadas) serão zerados (todos).
