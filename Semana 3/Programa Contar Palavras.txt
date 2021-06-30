@@ -1,0 +1,7 @@
+Faca um programa que leio o arquivo da Constituição Federal do Brasil e conta as palavras. 
+
+https://www2.camara.leg.br/atividade-legislativa/legislacao/constituicao1988
+
+O programa deverá ter um registro que contenha a palavra e a quantidade que vezes que ela aparece. 
+
+No Final, gerar um arquivo contendo as palavras e suas respectivas quantidades. 
