@@ -85,10 +85,12 @@ list *find_list(list *l, int value){
 	Verifico se a primeira posição já contem o valor igual ao que eu quero deletar, se sim, digo que a referencia de memoria para
 	a minha lista é o proximo nó ao meu auxiliar, dou um free no endereço de memoria do meu auxiliar e retorno a minha lista
 	com o novo endereço de memoria.
-	percorro o meu auxiliar até que ele seja nulo, ou até que a informação contida no nó seja igual a informação passada por parametro.
+	Caso não seja a primeira posição, eu percorro o meu auxiliar até que ele seja nulo, 
+	ou até que a informação contida no nó seja igual a informação passada por parametro.
 	O parametro fará referencia a informação contida no proximo nó ao nó atual.
 	crio uma lista auxiliar (del) que vai receber o endereço de memoria a ser limpo,
-	digo que o meu novo proximo é o proximo desse auxiliar e dou free no nó del.
+	digo que o meu novo proximo é o proximo desse auxiliar e dou free no nó del,
+	por fim eu retorno a minha lista l, pois ela contem a referencia para a primeira posição.
 */
 list *delete_value(list *l, int value){
 	list *aux = l;
