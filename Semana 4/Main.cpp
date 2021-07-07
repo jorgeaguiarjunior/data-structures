@@ -16,10 +16,10 @@ int main(){
 	
 	print_list(main_list);
 	
-	list *aux = find_list(main_list, 5);
+	list *aux = find_list(main_list, 6);
 	
-	if(check_list(aux) == 5){
-		printf("Lista nao encontrada");
+	if(check_list(aux) == 1){
+		printf("Valor nao encontrado\n");
 	}else{
 		printf("O valor %i foi encontrado no endereco de memoria %i\n", aux->info, &aux);
 	}
