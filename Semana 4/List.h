@@ -52,24 +52,6 @@ list *add_list(list *l, int value){
 */
 
 /*
-	Método para adicionar um valor a lista mantendo a ordem numerica, do menor ao maior (Forma correta, solicitado no enunciado)
-
-*/
-
-/*
-	Método para printar a lista:
-	Uso um auxiliar para não perder a referencia de memoria para o primeiro nó da lista,
-	percorro o meu auxiliar até que ele seja nulo.
-*/
-void print_list(list *l){
-	list *aux = l;
-	
-	for(aux = l; check_list(aux) != 1; aux = aux->prox){
-		printf("%i\n", aux->info);
-	}
-}
-
-/*
 	Método de inserir elementos da forma correta, de acordo com o enunciado. (Com ordem de valores).
 	Primeiro eu crio um ponteiro para o meu novo elemento (new_element), e já aloco um espaço de memoria para ele.
 	Após isso eu verifico se a minha lista está vazia, ou se a informação da minha lista é maior que a informação passada por parametro.
@@ -110,6 +92,19 @@ list *add_list(list *l, int value){
 			return l;
 		}
 		
+	}
+}
+
+/*
+	Método para printar a lista:
+	Uso um auxiliar para não perder a referencia de memoria para o primeiro nó da lista,
+	percorro o meu auxiliar até que ele seja nulo.
+*/
+void print_list(list *l){
+	list *aux = l;
+	
+	for(aux = l; check_list(aux) != 1; aux = aux->prox){
+		printf("%i\n", aux->info);
 	}
 }
 
