@@ -1,0 +1,7 @@
+Implementar uma Lista Duplamente Encadeada e Circular.
+
+Desenvolver uma lista duplamente encadeada e circular com o métodos de Inserir, Pesquisar e Remover. 
+
+Todos os métodos devem ser acessados por um menu principal. 
+
+A lista deve armazenar as propriedades Matricula e Nome. 
