@@ -114,7 +114,7 @@ Pilha *desempilha(Pilha *p){
 		push(aux->passos, d);
 		aux = aux->prox;
 	}
-	pilha_libera(p);
+	//pilha_libera(p);
 	return d;
 }
 
