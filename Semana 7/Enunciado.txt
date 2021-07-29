@@ -1,0 +1,1 @@
+Considerando uma fila dinâmica, utilizando a struct Dado,  com os valores: 5,9,6,100,205 com endereços 0XCC, 0X12, 0XAB, 0XDD, 0XFF, faça a representação gráfica desta fila. 
