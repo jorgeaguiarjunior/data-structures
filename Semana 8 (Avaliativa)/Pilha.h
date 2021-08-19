@@ -80,6 +80,18 @@ void libera_pilha(Pilha *p){
 	free(p);
 }
 
+int confere_id_pilha(Pilha *p, int id){
+	NODO *percorre = p->topo;
+	
+	while(percorre != NULL){
+		if(percorre->id == id){
+			return 1;
+		}
+		percorre = percorre->prox;
+	}
+	return 0;
+}
+
 //Método para retornar uma pilha auxiliar ao contrario, para eu salvar no arquivo da forma correta.
 Pilha *desempilhar(Pilha *p){
 	Pilha *desempilha = inicia_pilha();

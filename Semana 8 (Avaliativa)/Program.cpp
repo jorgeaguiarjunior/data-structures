@@ -55,13 +55,17 @@ int main(){
 			case 5:
 				printf("Entre com a ID do aviao: ");
 				scanf("%i", &id_geral);
-				printf("Entre com o modelo do aviao: ");
-				scanf(" %s", mod_aviao);
-				printf("Entre com o prefixo do aviao: ");
-				scanf(" %s", pref_aviao);
-				printf("Entre com a companhia aerea: ");
-				scanf(" %s", com_aviao);
-				push(main_pilha, mod_aviao, pref_aviao, com_aviao, id_geral);
+				if(confere_id_pilha(main_pilha, id_geral) == 0){
+					printf("Entre com o modelo do aviao: ");
+					scanf(" %s", mod_aviao);
+					printf("Entre com o prefixo do aviao: ");
+					scanf(" %s", pref_aviao);
+					printf("Entre com a companhia aerea: ");
+					scanf(" %s", com_aviao);
+					push(main_pilha, mod_aviao, pref_aviao, com_aviao, id_geral);
+				}else{
+					printf("ID ja em uso! Verifique os cadastros e escolha uma ID disponivel.\n");
+				}
 			break;
 			
 			case 6:
@@ -76,11 +80,15 @@ int main(){
 			case 8:
 				printf("Entre com a ID do passageiro: ");
 				scanf("%i", &id_geral);
-				printf("Entre com o nome do passageiro: ");
-				scanf(" %s", no_passageiro);
-				printf("Entre com a idade do passageiro: ");
-				scanf("%i", &idad_passageiro);
-				main_lista = insere_lista(main_lista, idad_passageiro, no_passageiro, id_geral);
+				if(confere_id_lista(main_lista, id_geral) == 0){
+					printf("Entre com o nome do passageiro: ");
+					scanf(" %s", no_passageiro);
+					printf("Entre com a idade do passageiro: ");
+					scanf("%i", &idad_passageiro);
+					main_lista = insere_lista(main_lista, idad_passageiro, no_passageiro, id_geral);
+				}else{
+					printf("ID ja em uso! Verifique os cadastros e escolha uma ID disponivel.\n");
+				}
 			break;
 			
 			case 9:

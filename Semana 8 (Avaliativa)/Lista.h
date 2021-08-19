@@ -102,6 +102,18 @@ Lista *remove_lista(Lista *l, int id_passageiro){
 	}
 }
 
+int confere_id_lista(Lista *l, int id){
+	Lista *percorre = l;
+	
+	while(percorre != NULL){
+		if(percorre->id == id){
+			return 1;
+		}
+		percorre = percorre->prox;
+	}
+	return 0;
+}
+
 void *libera_lista(Lista **pl){
 	while (*pl != NULL)
     {
