@@ -1,0 +1,6 @@
+Trabalho
+• Construir uma arvore de Decisão que Aprende com 
+as respostas dos Usuários. 
+• Programas iguais ou com bases compartilhadas serão 
+zerados. 
+• Entregar o CPP (e os headers). 
