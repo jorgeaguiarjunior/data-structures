@@ -92,7 +92,7 @@ int main(){
 							
 							if(valida_resposta == 2){ //Caso não seja a folha da direita
 								if(percorre->direita == NULL){ //Caso a folha da direita estiver vazia, então eu ensino o algoritmo novamente
-									printf("Ok, eu admito, não sei a resposta... Me ensine o que é...\n\n");
+									printf("Ok, eu admito, não sei a resposta... Adicione mais uma pergunta para me ajudar a achar a resposta...\n\n");
 									system("pause");
 									arv = ensina(arv);
 									printf("\nObrigado pelos ensinamentos... Vamos de novo!\n\n");
