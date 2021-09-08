@@ -1,0 +1,5 @@
+Atividade Semanal
+
+Dado um Conjunto de Vetores de 200.000 posições, qual é o tempo médio (10 execuções) de cada algoritmos estudado leva para concluir a ordenação?
+
+Qual é o mais eficiente?
