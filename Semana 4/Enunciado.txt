@@ -1,0 +1,1 @@
+Crie uma Lista Dinâmica, implementando na função de inserção que mantenha a lista sempre ordenada. 

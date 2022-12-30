@@ -1,0 +1,43 @@
+Sistema Controlador de Aeroporto.
+
+Sistema Controlador de Aeroporto.
+
+ 
+
+Desenvolva um sistema de controle para um aeroporto.
+
+O sistema deverá controlar uma Fila de Aviões em solo, uma lista de passageiros e uma pilha de aviões na hangar.
+
+A lista de passageiros é peculiar, pois será sempre ordenada pela idade dos Passageiros. Sempre ao adicionar um passageiro, a lista será ordenada de forma Decrescente pela idade do passageiro. Para remover o passageiro da lista, deverá sempre ser informada o ID do Passageiro.
+
+O sistema deverá ler os arquivos respectivos e fazer um pré carregamento dos dados.
+
+No Menu Principal dever conter as seguintes opções:
+
+--------------------------------------------------------
+
+Sistema de Controle de Aeroporto de Litoral Norte de RS
+
+--------------------------------------------------------
+
+[1] Listar todos os aviões em Solo
+
+[2] Adicionar avião em solo
+
+[3] Remover avião em solo
+
+[4] Listas todos os aviões no Hangar
+
+[5] Adicionar avião no hangar
+
+[6] Remover avião no hangar
+
+[7] Listar todos os Passageiros
+
+[8] Adicionar um Passageiro
+
+[9] Remover um Passageiro
+
+[0] Sair & Salvar Dados
+
+--------------------------------------------------------
